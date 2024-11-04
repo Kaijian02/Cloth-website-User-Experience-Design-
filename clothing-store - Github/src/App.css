@@ -1,0 +1,188 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  background-color: #f0efeb;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.banner-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-text p {
+  font-size: 18px;
+  color: #666;
+}
+
+.banner-image img {
+  max-height: 500px;
+  margin-top: -80px;
+  margin-left: 80px;
+}
+
+.footer {
+  background-color: #f8f8f8;
+}
+
+.footer h6 {
+  font-weight: bold;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer .social-links i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.footer p {
+  color: #666;
+}
+
+.card {
+  height: 350px;
+  background-color: #f0eeed;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.card-img-top {
+  width: auto;
+  height: 250px;
+  object-fit: contain;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Header.css */
+.navbar {
+  height: 64px;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+}
+
+.nav-link {
+  color: #4b5563 !important;
+  font-size: 0.95rem;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+.form-control {
+  background-color: #f9fafb;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #e5e7eb;
+}
+
+.input-group-text {
+  border-color: #e5e7eb;
+}
+
+.badge {
+  font-size: 0.65rem;
+  padding: 0.25em 0.5em;
+}
+
+.filter-sidebar {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+
+.color-swatch {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+
+.size-button {
+  border-radius: 50px;
+  padding: 5px 15px;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+.size-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.filter-sidebar .btn {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.old-price {
+  color: grey;
+  margin-left: 10px;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  color: #4caf50;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #333;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.btn-quantity {
+  width: 40px;
+}
+
+.muted-text {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 0px;
+}
